@@ -1,5 +1,6 @@
 import React from 'react'
+import { Home } from 'pages'
 
 export function App() {
-  return <h1>Vite + TypeScript</h1>
+  return <Home />
 }
