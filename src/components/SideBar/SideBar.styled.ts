@@ -21,10 +21,6 @@ export const AccountContainer = styled.section`
     color: ${theme.colors.white};
     margin-top: 1.3rem;
     margin-left: 9rem;
-
-    @media screen and (max-width: 1px) {
-      display: none;
-    }
   }
 
   p {
@@ -41,10 +37,7 @@ export const AccountBanner = styled.img`
   height: 10rem;
 `
 
-export const AccountAvatar = styled.img`
-  width: 5.5rem;
-  height: 5.5rem;
-  border-radius: 50%;
+export const AccountAvatarContainer = styled.div`
   position: absolute;
   left: 2.2rem;
   top: 8rem;

@@ -3,7 +3,7 @@ import { AiOutlineCompass, AiOutlineLogout } from 'react-icons/ai'
 import { RiHeart2Line } from 'react-icons/ri'
 import { FiMonitor, FiSettings, FiUser, FiUsers } from 'react-icons/fi'
 
-import { Logo } from 'components'
+import { Avatar, Logo } from 'components'
 import { POPCORN_ICON } from 'assets'
 
 import { NavItem } from './NavItem'
@@ -18,11 +18,13 @@ export function SideBar() {
           src='https://pbs.twimg.com/profile_banners/1120580353708711936/1561665658/600x200'
           alt='Account Banner'
         />
-        <S.AccountAvatar
-          src='https://github.com/oigabrielteodoro.png'
-          alt='Account'
-        />
-
+        <S.AccountAvatarContainer>
+          <Avatar
+            progress={50}
+            src='https://github.com/oigabrielteodoro.png'
+            alt='Account'
+          />
+        </S.AccountAvatarContainer>
         <strong>Gabriel Teodoro</strong>
         <p>@oigabrielteodoro</p>
       </S.AccountContainer>
