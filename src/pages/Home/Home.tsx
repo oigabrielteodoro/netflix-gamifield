@@ -1,5 +1,14 @@
 import React from 'react'
 
+import { SideBar } from 'components'
+
+import * as S from './Home.styled'
+
 export function Home() {
-  return <h1>Home</h1>
+  return (
+    <>
+      <SideBar />
+      <S.Container></S.Container>
+    </>
+  )
 }

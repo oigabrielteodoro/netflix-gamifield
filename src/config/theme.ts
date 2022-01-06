@@ -1,6 +1,6 @@
 export const theme = {
   font: {
-    family: 'Barlow',
+    family: 'Inter',
     sizes: {
       disclaimer: '1.2rem',
       small: '1.4rem',
@@ -10,9 +10,19 @@ export const theme = {
     },
   },
   colors: {
+    white: '#ffffff',
+    blue: {
+      700: '#6c879e',
+    },
+    red: {
+      500: '#c73730',
+    },
     neutral: {
-      800: '#191b1f',
-      900: '#09090a',
+      500: '#4a4a56',
+      600: '#2c2d35',
+      700: '#222329',
+      800: '#191c20',
+      900: '#131519',
     },
   },
 }
