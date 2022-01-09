@@ -9,44 +9,12 @@ export const Container = styled.aside`
   height: 100vh;
   display: flex;
   flex-direction: column;
-`
-
-export const AccountContainer = styled.section`
-  position: relative;
-  margin-top: 6rem;
-  display: flex;
-  flex-direction: column;
-
-  strong {
-    color: ${theme.colors.white};
-    margin-top: 1.3rem;
-    margin-left: 9rem;
-  }
-
-  p {
-    color: ${theme.colors.neutral[500]};
-    font-size: ${theme.font.sizes.small};
-    margin-top: 0.4rem;
-    margin-left: 9rem;
-  }
-`
-
-export const AccountBanner = styled.img`
-  border-radius: 1.6rem;
-  width: 30rem;
-  height: 10rem;
-`
-
-export const AccountAvatarContainer = styled.div`
-  position: absolute;
-  left: 2.2rem;
-  top: 8rem;
+  justify-content: space-between;
 `
 
 export const NavigationContainer = styled.nav`
   display: flex;
   flex-direction: column;
-  margin-top: 8rem;
 
   h1 {
     color: ${theme.colors.neutral[600]};
@@ -67,7 +35,6 @@ export const ChallengeContainer = styled.section`
   padding: 2.5rem;
   display: flex;
   flex-direction: column;
-  margin-top: auto;
 
   button {
     font-weight: 600;
