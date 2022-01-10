@@ -1,4 +1,6 @@
+export * from './AppLayout'
 export * from './AppStyle'
+export * from './Friends'
 export * from './SideBar'
 export * from './Header'
 export * from './Avatar'

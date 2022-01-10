@@ -7,6 +7,7 @@ type IconProps = {
 
 export const Container = styled.header`
   margin-left: 30rem;
+  margin-right: 10.8rem;
   padding: 4rem;
   display: flex;
   align-items: center;
