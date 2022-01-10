@@ -73,10 +73,13 @@ export const ChallengeTextContainer = styled.div`
 export const PopcornIcon = styled.div`
   position: absolute;
   background: ${theme.colors.blue[700]};
-  padding: 0.8rem;
+  width: 5.2rem;
+  height: 5.2rem;
+  display: grid;
+  place-items: center;
+  align-self: center;
   border-radius: 1.6rem;
   top: -3rem;
-  align-self: center;
 
   img {
     width: 3.2rem;
