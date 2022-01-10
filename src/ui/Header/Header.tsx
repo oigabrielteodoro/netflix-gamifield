@@ -14,21 +14,21 @@ import * as S from './Header.styled'
 
 export function Header() {
   return (
-    <S.Container>
+    <S.Container aria-label='Header'>
       <S.Column>
-        <S.Icon>
+        <S.Icon aria-label='Previous'>
           <FiChevronLeft size={24} />
         </S.Icon>
-        <S.Icon disabled>
+        <S.Icon aria-label='Next' disabled>
           <FiChevronRight size={24} />
         </S.Icon>
         <Search />
       </S.Column>
       <S.Column>
-        <S.Icon bullet>
+        <S.Icon aria-label='Notifications' bullet>
           <FiBell size={24} />
         </S.Icon>
-        <S.Icon>
+        <S.Icon aria-label='Messages'>
           <FiMessageCircle size={24} />
         </S.Icon>
         <S.AccountContainer>

@@ -11,7 +11,7 @@ export function Search() {
   return (
     <S.Container onClick={() => inputRef.current?.focus()}>
       <FiSearch size={24} color={theme.colors.neutral[500]} />
-      <input ref={inputRef} placeholder='Search...' />
+      <input aria-label='Search' ref={inputRef} placeholder='Search...' />
     </S.Container>
   )
 }
