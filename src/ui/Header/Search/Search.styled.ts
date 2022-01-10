@@ -2,14 +2,15 @@ import styled from 'styled-components'
 import { theme } from 'config'
 
 export const Container = styled.div`
-  border-radius: 3rem;
-  padding: 1.2rem 2.4rem;
+  border-radius: 1.6rem;
+  padding: 1.2rem 2rem;
   border: 0.2rem solid ${theme.colors.neutral[500]};
   display: flex;
   align-items: center;
   width: 30rem;
   cursor: text;
   transition: 300ms;
+  margin-left: 2.4rem;
 
   &:hover {
     border: 0.2rem solid ${theme.colors.neutral[400]};
