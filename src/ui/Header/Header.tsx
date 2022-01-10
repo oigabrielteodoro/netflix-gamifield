@@ -5,6 +5,7 @@ import {
   FiBell,
   FiMessageCircle,
 } from 'react-icons/fi'
+import { useNavigate } from 'react-router'
 
 import { Avatar } from 'ui'
 
@@ -13,13 +14,15 @@ import { Search } from './Search'
 import * as S from './Header.styled'
 
 export function Header() {
+  const navigate = useNavigate()
+
   return (
     <S.Container aria-label='Header'>
       <S.Column>
-        <S.Icon aria-label='Previous'>
+        <S.Icon aria-label='Previous' onClick={() => navigate(-1)}>
           <FiChevronLeft size={24} />
         </S.Icon>
-        <S.Icon aria-label='Next' disabled>
+        <S.Icon aria-label='Next' onClick={() => navigate(1)}>
           <FiChevronRight size={24} />
         </S.Icon>
         <Search />
