@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { SideBar } from 'components'
+import { SideBar } from 'ui'
 import { render, screen, userEvent, waitFor } from 'lib/Test'
 
 describe('SideBar', () => {

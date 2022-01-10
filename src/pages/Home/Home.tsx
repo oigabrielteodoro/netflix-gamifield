@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { SideBar } from 'components'
+import { SideBar } from 'ui'
 
 import * as S from './Home.styled'
 

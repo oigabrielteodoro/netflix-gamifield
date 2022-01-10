@@ -3,7 +3,7 @@ import { RiHeart2Line } from 'react-icons/ri'
 import { FiSettings } from 'react-icons/fi'
 import { AiOutlineCompass, AiOutlineLogout } from 'react-icons/ai'
 
-import { Logo } from 'components'
+import { Logo } from 'ui'
 import { POPCORN_ICON } from 'assets'
 
 import { NavItem } from './NavItem'
